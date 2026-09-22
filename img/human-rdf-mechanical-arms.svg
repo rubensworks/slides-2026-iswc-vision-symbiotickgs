@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Human movement drives mechanical arms through RDF</title>
+  <desc id="desc">A bent human arm with a motion arrow feeds a central RDF graph that branches toward two different robotic arms: an articulated gripper and a sliding industrial arm.</desc>
+  <circle cx="80" cy="80" r="74" fill="#0C479C"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Human arm: shoulder, elbow, forearm, and a simplified fist. -->
+    <path d="M43 35 C48 40 51 48 56 56 Q63 67 72 59 L88 44 Q92 43 96 39 L103 30 Q105 27 102 25 Q100 24 98 27 L93 33 L98 23 Q99 20 96 19 Q94 19 93 22 L88 31 L91 21 Q92 18 89 18 Q87 18 86 21 L83 32 L82 28 Q81 25 78 26 Q76 27 77 31 L79 40 L65 50 Q63 51 61 47 L53 31"/>
+    <path d="M108 21 Q120 30 115 43 M112 38 L115 43 L120 40"/>
+    <!-- Human movement enters the RDF graph. -->
+    <path d="M80 62 V73 M77 70 L80 73 L83 70"/>
+    <!-- RDF relationships. -->
+    <path d="M76 83 L68 90 M84 83 L92 90 M71 94 H89"/>
+    <g fill="#0C479C">
+      <circle cx="80" cy="79" r="4.5"/>
+      <circle cx="64" cy="94" r="4.5"/>
+      <circle cx="96" cy="94" r="4.5"/>
+    </g>
+    <!-- Semantic data fans out to the two machines. -->
+    <path d="M58 94 H44 V103 M41 100 L44 103 L47 100 M102 94 H116 V103 M113 100 L116 103 L119 100"/>
+    <g transform="translate(4 -3)">
+    <!-- Articulated robot: two links, circular joints, pincer. -->
+    <path d="M30 135 H53 M41 134 V127 L31 117 L43 109 L53 117 M53 117 L59 116 L62 120 M53 117 L54 123 L58 126"/>
+    <g fill="#0C479C">
+      <circle cx="41" cy="127" r="3.5"/>
+      <circle cx="31" cy="117" r="3.5"/>
+      <circle cx="43" cy="109" r="3.5"/>
+    </g>
+    </g>
+    <g transform="translate(-4 -3)">
+    <!-- Cartesian robot: upright rail, sliding carriage, right-angle arm. -->
+    <path d="M105 135 H130 M123 133 V108 H129 V133 M123 116 H105 V126 M100 126 H110 M100 126 V130 M110 126 V130"/>
+    <rect x="120" y="112" width="12" height="8" rx="1" fill="#0C479C"/>
+    </g>
+  </g>
+</svg>
