@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Brain access control</title>
+  <desc id="desc">A white brain inside a blue circle, overlaid with a closed padlock.</desc>
+  <circle cx="75" cy="75" r="71" fill="#0C479C"/>
+    <g id="brain" transform="translate(75 72)" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0,-35 C-7,-49 -27,-47 -29,-31 C-43,-32 -50,-17 -43,-6 C-55,7 -47,26 -33,27 C-34,44 -10,51 0,36 C10,51 34,44 33,27 C47,26 55,7 43,-6 C50,-17 43,-32 29,-31 C27,-47 7,-49 0,-35 Z"/>
+      <path d="M0,-35 V36 M-29,-31 C-29,-20 -22,-16 -15,-17 M29,-31 C29,-20 22,-16 15,-17 M-43,-6 C-32,-11 -22,-5 -22,5 M43,-6 C32,-11 22,-5 22,5 M-33,27 C-31,17 -20,13 -12,19 M33,27 C31,17 20,13 12,19"/>
+    </g>
+  <g id="lock" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M104 115 V102 A16 16 0 0 1 136 102 V115" fill="#0C479C"/>
+    <rect x="95" y="113" width="50" height="39" rx="7" fill="#0C479C"/>
+    <path d="M120 130 V138"/>
+  </g>
+</svg>

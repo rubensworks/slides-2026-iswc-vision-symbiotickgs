@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Reasoning over brain knowledge</title>
+  <desc id="desc">A white brain above a three-node RDF graph within a blue circle. Solid links show known relationships and a dashed arrow shows an inferred relationship.</desc>
+  <circle cx="80" cy="80" r="74" fill="#0C479C"/>
+    <g id="brain" transform="translate(80 57) scale(0.68)" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0,-35 C-7,-49 -27,-47 -29,-31 C-43,-32 -50,-17 -43,-6 C-55,7 -47,26 -33,27 C-34,44 -10,51 0,36 C10,51 34,44 33,27 C47,26 55,7 43,-6 C50,-17 43,-32 29,-31 C27,-47 7,-49 0,-35 Z"/>
+      <path d="M0,-35 V36 M-29,-31 C-29,-20 -22,-16 -15,-17 M29,-31 C29,-20 22,-16 15,-17 M-43,-6 C-32,-11 -22,-5 -22,5 M43,-6 C32,-11 22,-5 22,5 M-33,27 C-31,17 -20,13 -12,19 M33,27 C31,17 20,13 12,19"/>
+    </g>
+  <g id="rdf-inference" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 85 V96 M75 106 L53 122 M85 106 L107 122"/>
+    <path d="M58 126 H62 M69 126 H73 M80 126 H84 M91 126 H100"/>
+    <path d="M96 121 L101 126 L96 131"/>
+    <g fill="#0C479C">
+      <circle cx="80" cy="102" r="6"/>
+      <circle cx="48" cy="126" r="6"/>
+      <circle cx="112" cy="126" r="6"/>
+    </g>
+  </g>
+</svg>
