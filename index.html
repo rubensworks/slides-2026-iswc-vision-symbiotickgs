@@ -47,25 +47,10 @@
         </ul>-->
     </section>
     <!-- What if we could access KGs directly without using proxies such as screens and keyboards?
-         And what about the reverse, where external access to our brain is possible by representing it accessible as a KG?
+         And what about the reverse, what if we could make our memories accessible as a KG?
          Today, this is all still science-fiction, it's not necessarily impossible.
-         In this talk, I will discuss why we need this, and how we get there. -->
-	
-    <section id="index" class="slide index" inlist="" rel="schema:hasPart" resource="#index">
-      <ul>
-        <li><a href="#index-augmenting">Augmenting human intelligence</a></li>
-		<li><a href="#index-current">Current opportunities</a></li>
-        <li><a href="#index-future">Future challenges</a></li>
-      </ul>
-    </section>
-    
-    <section id="index-augmenting" class="slide index" inlist="" rel="schema:hasPart" resource="#index-augmenting">
-      <ul>
-        <li class="current"><a href="#index-augmenting">Augmenting human intelligence</a></li>
-		<li><a href="#index-current">Current opportunities</a></li>
-        <li><a href="#index-future">Future challenges</a></li>
-      </ul>
-    </section>
+         In this talk, I will discuss why we need this, and how we get there.
+         But before we do that, let's have a look at some ideas of the past first, because this is not really a new idea. -->
 	
     <section id="history-bush" class="slide" inlist="" rel="schema:hasPart" resource="#history-bush">
       <h2 property="schema:name">Post-WWII: bottleneck shifts from scientific knowledge <em>production</em> &rarr; <em>consumption</em></h2>
@@ -155,14 +140,6 @@
       </p>
     </section>
 
-    <section id="index-current" class="slide index" inlist="" rel="schema:hasPart" resource="#index-current">
-      <ul>
-        <li><a href="#index-augmenting">Augmenting human intelligence</a></li>
-		<li class="current"><a href="#index-current">Current opportunities</a></li>
-        <li><a href="#index-future">Future challenges</a></li>
-      </ul>
-    </section>
-
     <section id="overview-symbiotickgs" class="slide" inlist="" rel="schema:hasPart" resource="#overview-symbiotickgs">
       <h2 property="schema:name">Integrating Brain-based Knowledge Graphs with external Knowledge Graphs</h2>
       <h3>Using a (hypothetical) Semantic Brain-Computer Interface</h3><br />
@@ -182,7 +159,7 @@
           </li>
           <li>
           	  <h3>Shared reasoning across humans and machines</h3>
-			  <span class="indent">Reasoning, proof languages, neuro-symbolic AI</span>
+			  <span class="indent">Reasoning and proof languages</span>
           </li>
       </ul>
     </section>
@@ -206,95 +183,25 @@
       </ul>
     </section>
 
-    <section id="index-future" class="slide index" inlist="" rel="schema:hasPart" resource="#index-future">
-      <ul>
-        <li><a href="#index-augmenting">Augmenting human intelligence</a></li>
-		<li><a href="#index-current">Current opportunities</a></li>
-        <li class="current"><a href="#index-future">Future challenges</a></li>
-      </ul>
-    </section>
-
-    <section id="bci-limits" class="slide" inlist="" rel="schema:hasPart" resource="#bci-limits">
-      <h2 property="schema:name">BCI technology has major limitations</h2>
+    <section id="future-opportunities" class="slide" inlist="" rel="schema:hasPart" resource="#future-opportunities">
+      <h2 property="schema:name">Opportunities using future BCI technology</h2>
+      <h3><em>BCIs cannot extract or inject knowledge</em></h3><br />
       <ul>
           <li>
-          	  <h3>Limited understanding of neural encoding</h3>
-			  <span class="indent">Abstract concepts and complex knowledge relations</span>
+              <img src="img/b2rml.svg" style="width: 12%; float: left; margin-right: 10px;" />
+          	  <h3>Mapping biological semantic memory to and from symbolic knowledge</h3>
+			  <span class="indent">Memories are stored differently across people</span>
           </li>
           <li>
-          	  <h3>Limited ability to integrate externally stored memories</h3>
-			  <span class="indent">Prosthesis techniques exist for restoring or enhancing memory</span>
+              <img src="img/brain-rdf-inference.svg" style="width: 12%; float: left; margin-right: 10px;" />
+          	  <h3>Mapping biological reasoning to and from (sub)symbolic reasoning</h3>
+			  <span class="indent">Languages to exchange reasoning and contexts</span>
           </li>
           <li>
-          	  <h3>Limited information bandwidth</h3>
-			  <span class="indent">May be necessary to exchange large chunks of knowledge</span>
+              <img src="img/brain-access-control.svg" style="width: 12%; float: left; margin-right: 10px;" />
+          	  <h3>Modeling ownership and access control for biological memories</h3>
+			  <span class="indent">Are current authorization mechanisms sufficient?</span>
           </li>
-      </ul>
-    </section>
-
-    <section id="bci-companies" class="slide" inlist="" rel="schema:hasPart" resource="#bci-companies">
-      <h2 property="schema:name">BCIs are rapidly evolving due to increasing commercial interest</h2>
-      <center><img src="img/bci-companies.png" style="width: 58%"><br />
-      <span class="credit">Source: byFounders, <em>Brain-Computer Interfaces: Exploring the Last Frontier</em>, 2025</span></center>
-    </section>
-
-    <section id="b2rml" class="slide" inlist="" rel="schema:hasPart" resource="#b2rml">
-      <h2 property="schema:name">Mapping biological semantic memory to and from symbolic knowledge</h2>
-      <ul>
-          <li>
-          	  <h3>Memories are combinations of personal multimodal experiences</h3>
-              <span class="indent">e.g. visual features, taste, smell, &mldr;</span>
-          </li>
-          <li>
-          	  <h3>Concepts <em>across</em> people are not necessarily stored the same</h3>
-			  <span class="indent">Personal experiences differ</span>
-          </li>
-          <li>
-          	  <h3>Need for mappings to align biological memories across people</h3>
-			  <span class="indent">Brain to RDF Mapping Language (B2RML)?</span>
-          </li>
-      </ul>
-      <center><img src="img/b2rml.svg" style="width: 15%" /></center>
-    </section>
-
-    <section id="reasoning" class="slide" inlist="" rel="schema:hasPart" resource="#reasoning">
-      <h2 property="schema:name">Mapping biological reasoning to and from (sub)symbolic reasoning</h2>
-      <h3><em>Augment human reasoning with external reasoners</em></h3><br />
-      <ul>
-          <li>
-          	  <h3>(Sub)symbolic AI enables reasoning over digital knowledge</h3>
-              <span class="indent">&rarr; AI reasoning over brain knowledge</span><br />
-              <span class="indent">&rarr; Human reasoning over external knowledge</span>
-          </li>
-          <li>
-          	  <h3>Need for exchanging reasoning language and contexts</h3>
-			  <span class="indent">Exchange LLM context windows, symbolic reasoning, proof languages, &mldr;</span>
-          </li>
-      </ul>
-      <center><img src="img/brain-rdf-inference.svg" style="width: 14%" /></center>
-    </section>
-
-    <section id="privacy" class="slide" inlist="" rel="schema:hasPart" resource="#privacy">
-      <h2 property="schema:name">Modeling ownership and access control for biological memories</h2>
-      <ul>
-          <li>
-          	  <h3>Memories are highly personal</h3>
-              <span class="indent">&rarr; Major ethical concerns</span>
-          </li>
-          <li>
-          	  <h3>Need for strong access control and consent mechanisms</h3>
-			  <span class="indent">Are current authorization mechanisms sufficient?</span><br />
-              <span class="indent">E.g. RBAC, ACL, ODRL, &mldr;</span>
-          </li>
-      </ul>
-      <center><img src="img/brain-access-control.svg" style="width: 15%" /></center>
-    </section>
-
-    <section id="index-final" class="slide index" inlist="" rel="schema:hasPart" resource="#index-final">
-      <ul>
-        <li><a href="#index-augmenting">Augmenting human intelligence</a></li>
-		<li><a href="#index-current">Current opportunities</a></li>
-        <li><a href="#index-future">Future challenges</a></li>
       </ul>
     </section>
 	
@@ -313,7 +220,7 @@
           </li>
           <li>
           	  <h3>Strongly depends on BCI breakthroughs</h3>
-              <span class="indent">Future opportunities may not be far off</span><br />
+              <span class="indent">Future may not be far off due to increasing commercial interest</span><br />
               <span class="indent">&rarr; Let's team up with cognitive neuroscience and BCI researchers</span>
               
           </li>
